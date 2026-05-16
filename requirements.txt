@@ -1,0 +1,5 @@
+langchain
+python-dotenv
+pypdf
+langchain_community
+bs4
