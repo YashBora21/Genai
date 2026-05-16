@@ -3,3 +3,4 @@ python-dotenv
 pypdf
 langchain_community
 bs4
+langchain_text_splitters
