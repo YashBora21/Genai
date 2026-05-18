@@ -4,3 +4,9 @@ pypdf
 langchain_community
 bs4
 langchain_text_splitters
+google-genai
+chromadb
+langchain_google_genai
+langchain-ollama
+sentence-transformers
+langchain_huggingface
