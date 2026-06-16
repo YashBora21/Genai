@@ -4,7 +4,7 @@ load_dotenv()
 
 import streamlit as st
 
-from langchain_ollama import OllamaEmbeddings
+from langchain_ollama import OllamaEmbeddings,ChatOllama
 from langchain_groq import ChatGroq
 
 from langchain_community.document_loaders import PyPDFDirectoryLoader
@@ -18,9 +18,8 @@ from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 # GROQ LLM
 # -------------------------------
 
-llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
-    api_key=os.getenv("GROQ_API_KEY")
+llm = ChatOllama(
+    model="gemma4:31b-cloud "
 )
 
 # -------------------------------
