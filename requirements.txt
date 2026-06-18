@@ -17,3 +17,5 @@ streamlit
 langchain_groq
 arxiv
 wikipedia
+validators
+youtube_transcript_api
